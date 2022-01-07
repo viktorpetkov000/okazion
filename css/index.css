@@ -1,0 +1,232 @@
+#usedcars .gray-gradient-box-as-after:before, #management .gray-gradient-box-as-after:before, #monthly-offer .gray-gradient-box-as-after:before, #partners .gray-gradient-box-as-after:before, #contact .gray-gradient-box-as-after:before, #inq .gray-gradient-box-as-after:before, #team .gray-gradient-box-as-after:before{
+background: linear-gradient(45deg, #fdcc72 0%, #fdcc72 0%, #faad2a 99%, #faad2a 100%) !important;
+  }
+
+#usedcars h2.white-color, #management h2.white-color, #monthly-offer h2.white-color, #contact h2.white-color,  #partners h2.white-color,  #inq h2.white-color,  #team h2.white-color {
+  color: #fff;
+  }
+
+#explanation .gray-gradient-box-as-after:before {
+  right: -5%;
+  }
+
+#monthly-offer p{
+  font-weight: 100;
+} 
+
+body .how-details h1{
+  max-width: 100%;
+  font-size: 55px;
+} 
+
+body .how-details .cell.medium-3 ul li{
+  color: #fff;
+} 
+
+body input[type='submit']{  background: linear-gradient(45deg, #fdcc72 0%, #fdcc72 0%, #faad2a 99%, #faad2a 100%) !important;
+  color: #fff;
+} 
+.relative-position{
+  position: relative;
+}  
+
+.gray-bck {
+    background-color: #677370;
+}  
+.team-button { 
+    display: inline-block;
+    padding: 100px 210px;
+    position: absolute;
+    bottom: -170px;
+    right: -100px;
+    transition: all 0.5s ease-in-out;
+  font-size: 1.85rem;
+    cursor: pointer;
+}
+.team-button:before { 
+    display: inline-block;
+  content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+background: linear-gradient(45deg, #c9d1ce 0%, #c9d1ce 0%, #c9d1ce 1%, #99a8a2 70%, #677370 100%, #677370 100%, #677370 100%, #99a8a2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9d1ce', endColorstr='#99a8a2',GradientType=1 );
+}
+.team-button:hover:before {  
+  transform: scale(1.05);
+  }
+.login {  
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+    top: 40px;
+  } 
+.login:focus{
+  outline: none;
+}
+.login:hover span { 
+  visibility: visible;
+  }
+.login span {
+  font-size: 14px !important;
+  color: #fff !important;
+}
+.login .release-log{  
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+.login div {
+  display: inline-block;
+  width: 15px;
+  position: relative;
+  top: -2px;
+  left: -2px;
+}
+.login span:hover{
+  text-decoration: underline;
+  }  
+@media screen and (max-width: 39.9375em){
+.team-button {
+    position: static;
+    width: 100%;
+    padding: 15px;
+    margin-left: -10px;
+}
+  }
+
+.margin-top-200 {
+      margin-top: 200px;
+  }
+.padding-bottom-100 {
+    padding-bottom: 100px;
+  }
+.pos-abs  {
+    right: -25px; 
+  position: absolute;
+  }
+#explanation .gray-gradient-box-as-after:before{
+  right: 25% !important;
+  }
+#team .picture{
+  min-height: 350px;
+}
+#team .picture.smaller-pic{
+  min-height: 200px;
+}
+#team .picture {
+
+}
+#team .smaller-cont  {
+    background: #FCC562;
+    color: white;
+}
+#team {
+    text-align: center;
+}
+#team h5 {
+  text-transform: uppercase;
+      font-size: 15px;
+}
+
+#team .smaller-cont div:not(.picture) {
+    padding:20px;
+}
+#team .smaller-cont div:not(.picture) {
+    font-size: 14px;
+    line-height: 20px;
+  min-height: 200px;
+}
+
+#team .after-el {
+    position: relative; 
+}
+
+#team .after-el:after {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: #FCC562;
+    display: block;
+    left: -20px;
+    transform: rotate(45deg);
+    z-index: 20;
+    top: 78px;
+    right: auto;
+}
+#team .after-el.opposite:after {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: #FCC562;
+    display: block;
+    right: -20px;
+    transform: rotate(45deg);
+    z-index: 20;
+    top: 78px;
+    left: auto;
+} 
+#team .bigger {
+    padding: 40px;
+} 
+#team .bigger.after-el:after {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: block;
+  top: 50%;
+  transform: rotate(45deg) 	translate(-20px, -50%);
+    z-index: 20;
+    right: auto;
+} 
+
+#team .align-middle {
+    max-width: 1000px;
+  margin: auto;
+}  
+#team  .smaller-cont p{
+  margin-bottom: 2px;
+position: relative;
+    z-index: 21;
+}
+.contacts.gray-color, body .contacts a {
+  color: #fff !important;
+}
+.reveal {
+  padding-top: 40px;
+  padding-bottom: 40px; 
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 100;
+  background-color: #faa61a;
+}
+.reveal h1{
+  padding-top: 40px;
+  padding-bottom: 40px; 
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 100;
+}
+
+.gray-gradient-box-as-after.flipped:before{
+      background: linear-gradient(45deg, #c9d1ce 0%, #c9d1ce 0%, #c9d1ce 1%, #99a8a2 70%, #677370 100%, #677370 100%, #677370 100%, #99a8a2 100%) !important;
+}
+.site-navigation .top-bar-right:before {
+  top: -50px !important;
+}
+.top-bar .menu > li:not(.menu-text) > a {
+    overflow-wrap: break-word;
+    max-width: 110px;
+    text-align: center;
+  line-height: 16px;
+  padding-bottom: 5px;
+}
